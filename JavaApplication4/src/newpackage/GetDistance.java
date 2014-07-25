@@ -17,7 +17,7 @@ public class GetDistance {
     
   static public double getDist(double lat1 , double lon1 , double lat2 , double lon2) {
     
-     double rlat2=Math.toRadians(lat2);	
+        double rlat2=Math.toRadians(lat2);	
         double rlat1=Math.toRadians(lat1);
         double rlon1=Math.toRadians(lon1);
         double rlon2=Math.toRadians(lon2);
@@ -30,10 +30,10 @@ public class GetDistance {
     
    static public double getAzimut (double lat1, double lon1 ,double lat2 , double lon2 ) {
 
-     double rlat2=Math.toRadians(lat2);	
+       double rlat2=Math.toRadians(lat2);	
        double rlat1=Math.toRadians(lat1);
        double rlon1=Math.toRadians(lon1);
-        double rlon2=Math.toRadians(lon2);
+       double rlon2=Math.toRadians(lon2);
        
 
  

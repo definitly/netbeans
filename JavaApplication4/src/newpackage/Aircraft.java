@@ -16,11 +16,11 @@ private int id;
 private int numberofengine;
 private String nameofplane;
 private int airspeed; //  скорость км в час
-private static double ratedtime;// расчетное время в пути
-public double fuel;
-public static long totaltime; // общее время в пути
-public static float dist; // пройденная дистанция за промежуток времени
-public static float totaldist; // общая пройденная дистанция
+private double ratedtime;// расчетное время в пути
+public  double fuel;
+public  long totaltime; // общее время в пути
+public  float dist; // пройденная дистанция за промежуток времени
+public  float totaldist; // общая пройденная дистанция
 
   
 
@@ -62,7 +62,7 @@ public String getTime ( double dist , int airspeed ) {
 }
 
 //подсчитать дистанцию 
-public static double travelledD (int speed,double time){
+public  double travelledD (int speed,double time){
         dist= (float)time*speed;
         totaldist=totaldist+dist;
         return totaldist;
