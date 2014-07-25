@@ -12,16 +12,16 @@ package newpackage;
  */
 public class TravelJFrame extends  javax.swing.JFrame {
 
-    private static Aircraft p;
-    
+       private static Aircraft p;
+      
     
     /**
      * Creates new form TravelJFrame
      */
-    public TravelJFrame() {
+        public TravelJFrame() {
         super();
         this.setVisible(true);
-         this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
+        this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
          
         initComponents();
     }
@@ -33,7 +33,7 @@ public class TravelJFrame extends  javax.swing.JFrame {
      */
    
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
-    private void initComponents() {
+        private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
         jButton1 = new javax.swing.JButton();
@@ -144,7 +144,7 @@ public class TravelJFrame extends  javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+         private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         
                 long str=p.getTime();
                 String s = Long.toString(str);
