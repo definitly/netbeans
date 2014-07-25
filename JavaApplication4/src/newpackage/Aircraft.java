@@ -89,17 +89,12 @@ public static double travelledD (int speed,double time){
      
  }
 
- public long getTime() {
-         
-         return (totaltime/1000);
-     }
-     
-     public float getTravelledD() {
-         
-         return totaldist;
-     }
- 
-
+public long getTime() {
+return (totaltime/1000);
+}
+public float getTravelledD() {
+return totaldist;
+}
 }
     
 
